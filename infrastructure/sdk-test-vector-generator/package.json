@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "ethers": "^5.0.19",
+    "ethers": "^5.3.0",
     "ts-node": "^9.0.0",
     "zksync": "link:../../sdk/zksync.js"
   },
