@@ -9,7 +9,7 @@ RUN --mount=type=cache,target=/usr/local/cargo/registry \
     RUSTC_WRAPPER=/usr/local/cargo/bin/sccache \
     cargo build --release
 
-FROM debian:buster-slim
+FROM debian:10.10-slim
 RUN apt-get update && apt-get install -y axel ca-certificates && rm -rf /var/lib/apt/lists/*
 # Docs of env variables used for this image
 # to test this locally just run
