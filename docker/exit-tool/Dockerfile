@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:experimental
-FROM debian:buster-slim
+FROM debian:10.10-slim
 
 WORKDIR /usr/src/zksync
 
