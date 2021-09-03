@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1
 
 RUN mkdir -p /usr/share/nginx/html/explorer/dist
 COPY infrastructure/explorer/dist/ /usr/share/nginx/html/explorer/
